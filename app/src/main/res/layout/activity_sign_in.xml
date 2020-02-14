@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
-    tools:context="SignInActivity">
+    tools:context=".Activity.SignInActivity">
 
     <Button
         android:id="@+id/btn_sign_up"
@@ -13,6 +13,7 @@
         android:layout_height="25dp"
         android:background="@drawable/btn_sign_up"
         android:text="@string/sign_up"
+        android:onClick="showSignUpForm"
         android:textColor="@color/colorWhite"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_no_account"
         app:layout_constraintEnd_toStartOf="@+id/right_guideline"
